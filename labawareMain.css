@@ -1,0 +1,44 @@
+div {
+    color: darkslategray;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#topBar {
+    background-color: tan;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+body {
+    border:0px;
+    padding:0px;
+    margin:0px;
+}
+
+#span_logloc {
+    position: relative;
+    left: 40px;
+    margin: 0px;
+    text-decoration: none;
+    width: 1px;
+}
+
+#span_logloc1 {
+    position: relative;
+    left:40px;
+    margin: 0px;
+    text-decoration: none;
+    width: 1px;
+}
+
+.link:hover {
+    color: slategray;
+    cursor: pointer;
+}
+
+span {
+    width: 1px;
+}
