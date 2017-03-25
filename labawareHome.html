@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="jquery-3.1.1.min.js"></script>
+</head>
+<html>
+<link rel="stylesheet" href="/labawareMain.css" type="text/css">
+<script src="functions.js"></script>
+
+<body>
+
+    <div id="topBar">
+        <span id="span_logloc" class="link" onclick="toggleLogin()" style="display: block">Login</span>
+        <span id="span_logloc1" class="link" style="display:none" onclick="toggleLogin()">Logout</span>
+    </div>
+
+    <p>Welcome, Chris.</p>
+    <p>
+        <div class="link" onclick="countSpan()" style="width: 1px">Count</div>
+    </p>
+    <p>
+        <div class="link" onclick="callSQL()" style="width: 1px">callSQL</div>
+    </p>
+    <p>
+        <div class="link" onclick="sqlQuery()" style="width: 1px">sqlQuery()</div>
+    </p>
+</body>
+
+</html>
